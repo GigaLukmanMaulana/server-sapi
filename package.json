@@ -1,0 +1,13 @@
+{
+  "name": "server-collar-sapi",
+  "version": "1.0.0",
+  "description": "Middleware ESP32 → Railway → Firebase RTDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0"
+  }
+}
